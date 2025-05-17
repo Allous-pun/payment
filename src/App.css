@@ -9,3 +9,16 @@
   flex: 1;
   padding: 40px 20px;
 }
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 20px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    padding: 15px 10px;
+  }
+}

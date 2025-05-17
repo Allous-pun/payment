@@ -73,3 +73,60 @@ input:focus {
 .submit-button:hover {
   background: #5469d4;
 }
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .stripe-container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .stripe-header {
+    padding: 15px 0;
+  }
+  
+  .stripe-header h1 {
+    font-size: 24px;
+  }
+  
+  .card {
+    padding: 20px 15px;
+    border-radius: 6px;
+  }
+  
+  .form-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .half {
+    width: 100%;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .submit-button {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stripe-header h1 {
+    font-size: 20px;
+  }
+  
+  .card {
+    padding: 15px 12px;
+  }
+  
+  label {
+    font-size: 13px;
+  }
+  
+  input {
+    font-size: 14px;
+  }
+}
